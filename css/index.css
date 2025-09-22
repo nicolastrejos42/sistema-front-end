@@ -1,0 +1,108 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+    background: #fff;
+    width: 350px;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Título */
+.login-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    margin-bottom: 25px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Inputs */
+.login-container input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.login-container input:focus {
+    border-color: #2ecc71;
+}
+
+/* Botón principal */
+.btn-ingresar {
+    width: 100%;
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btn-ingresar:hover {
+    background: #219150;
+}
+
+/* Botón secundario (recuperar) */
+.btn-recuperar {
+    width: 100%;
+    background: #f5f5f5;
+    color: #999;
+    border: none;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-recuperar:hover {
+    background: #eaeaea;
+}
+
+/* Enlace inferior */
+.link {
+    display: block;
+    margin-top: 20px;
+    color: #2ecc71;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

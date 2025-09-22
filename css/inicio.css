@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area,
+.user {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    background: #2ecc71;
+    /* color de fondo del recuadro LOGO */
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.company-name {
+    font-size: 15px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.user {
+    font-size: 14px;
+}
+
+/* MAIN */
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.card {
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card p {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+    background: #fff;
+}
