@@ -10,6 +10,8 @@
 
 <body>
     <header class="header">
+        <a href="servicios.html">← Volver</a>
+
         <div class="logo-area">
             <div class="logo">LOGO</div>
         </div>
@@ -17,19 +19,46 @@
         <div class="user">Nicolás ▼</div>
     </header>
 
-    <main class="main">
+    <!-- <main class="main">
         <h2>DETALLE SERVICIO</h2>
         <p class="promo">¡PROMOCIÓN!</p>
 
         <div class="tarjeta-grande">
-            <span class="precio">Precio</span>
+            <p class="precio"></p>
         </div>
 
         <div class="info-extra">
-            <p class="descripcion">Descripción del producto</p>
-            <p class="cantidad">Cantidad existente del servicio</p>
+            <p class="descripcion"></p>
+            <p class="cantidad"></p>
+        </div>
+    </main> -->
+
+    <!-- <main class="tarjeta-grande">
+        <div class="imagen"></div>
+        <div class="contenido">
+            <h2 class="nombre"></h2>
+            <p class="precio"></p>
+            <p class="descripcion"></p>
+            <p class="cantidad"></p>
+        </div>
+    </main> -->
+
+    <main class="main" id="detalle-servicio">
+        <h1 id="titulo-servicio">Detalle del Servicio</h1>
+        <p class="promo" id="promo">¡PROMOCIÓN!</p>
+
+        <h2 class="nombre" id="nombre-servicio"></h2>
+        <div class="tarjeta-grande">
+            <p class="precio" id="precio-servicio"></p>
+        </div>
+
+        <div class="info-extra">
+            <p class="descripcion" id="descripcion-servicio"></p>
+            <p class="cantidad" id="cantidad-servicio"></p>
         </div>
     </main>
+
+    <script src="../js/app.js"></script>
 
     <footer class="footer">
         FOOTER

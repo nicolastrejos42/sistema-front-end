@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Primer Servicio",
+    "precio": 100,
+    "descripcion": "Descripcion del primer servicio.",
+    "cantidad": 15
+  },
+  {
+    "id": 2,
+    "nombre": "Segundo Servicio",
+    "precio": 200,
+    "descripcion": "Descripcion del segundo servicio.",
+    "cantidad": 88
+  },
+  {
+    "id": 3,
+    "nombre": "Tercer Servicio",
+    "precio": 180,
+    "descripcion": "Descripcion del tercer servicio.",
+    "cantidad": 25
+  },
+  {
+    "id": 4,
+    "nombre": "Cuarto Servicio",
+    "precio": 500,
+    "descripcion": "Descripcion del cuarto servicio.",
+    "cantidad": 55
+  },
+  {
+    "id": 5,
+    "nombre": "Quinto Servicio",
+    "precio": 700,
+    "descripcion": "Descripcion del quinto servicio.",
+    "cantidad": 8
+  },
+  {
+    "id": 6,
+    "nombre": "Sexto Servicio",
+    "precio": 320,
+    "descripcion": "Descripcion del sexto servicio.",
+    "cantidad": 40
+  },
+  {
+    "id": 7,
+    "nombre": "Séptimo Servicio",
+    "precio": 580,
+    "descripcion": "Descripcion del séptimo servicio.",
+    "cantidad": 15
+  },
+  {
+    "id": 8,
+    "nombre": "Octavo Servicio",
+    "precio": 470,
+    "descripcion": "Descripcion del octavo servicio.",
+    "cantidad": 80
+  },
+  {
+    "id": 9,
+    "nombre": "Noveno Servicio",
+    "precio": 610,
+    "descripcion": "Descripcion del noveno servicio.",
+    "cantidad": 200
+  },
+  {
+    "id": 10,
+    "nombre": "Décimo Servicio",
+    "precio": 975,
+    "descripcion": "Descripcion del décimo servicio.",
+    "cantidad": 20
+  }
+]
